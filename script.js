@@ -1,7 +1,7 @@
 (function(){
   var FONT_LINK = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Kaushan+Script&display=swap">';
   var TITLE = 'Menú Crepería Velu';
-  var SHEET_URL = 'https://script.google.com/macros/s/AKfycbz9RJ92dw4nbsMMOrXzTr_P67P-m5F_46FUcgl_hSSmALg4mUCtd98byQ-njs6usPcVOQ/exec';
+  var SHEET_URL = 'https://script.google.com/macros/s/AKfycbyAuoH3Aq6d4BCz-PrvEsf2sQ-0DgFb1TXvIRznYB0I06Sy-vBl2vMcxyLjhi59Kd0cgA/exec';
   var SHEET_REFRESH_MS = 60000;
 
   var state = JSON.parse(document.getElementById('menu-data').textContent);
